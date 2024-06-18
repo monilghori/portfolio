@@ -30,13 +30,13 @@ const WelcomeTitle = () => {
         <div className="flex justify-center items-center my-20">
           <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex items-center flex-col relative">
             <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-              Welcome to Monil's Portfolio
+              Welcome to Monil&apos;s Portfolio
             </h2>
             <TextGenerateEffect
               className="text-center text-[40px] md:text-5xl lg:text-6xl"
-              words="Hi, I'm Monil Ghroi 👋"
+              words="Hi, I&apos;m Monil Ghroi 👋"
             />
-            <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-xl font-serif">Step into Monil's world, where technology and creativity intersect to ignite innovation. With a profound passion for building and an unquenchable thirst for knowledge, I'm on an exhilarating journey to navigate the ever-evolving tech landscape 🚀.</p>
+            <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-xl font-serif">Step into Monil&apos;s world, where technology and creativity intersect to ignite innovation. With a profound passion for building and an unquenchable thirst for knowledge, I&apos;m on an exhilarating journey to navigate the ever-evolving tech landscape 🚀.</p>
             <ButtonMagic
               title="Show my work"
               icon={<FaLocationArrow />}
