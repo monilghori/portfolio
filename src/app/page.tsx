@@ -6,16 +6,17 @@ import RecentProjects from "@/Components/RecentProjects";
 import Approach from "@/Components/Approach";
 import Footer from "@/Components/Footer";
 export default function Home() {
+  const isBrowser = typeof document !== 'undefined';
   return (
     <main className="bg-black-100 flex justify-center items-center relative flex-col overflow-clip">
       <div className="max-w-7xl w-full text-white">
         <FloatingNav navItems={navItems} />
         <div className="flex flex-col">
-          <WelcomeTitle />
-          <Grid />
-          <RecentProjects />
-          <Approach />
-          <Footer />
+        {isBrowser && <WelcomeTitle />}
+        {isBrowser && <Grid />}
+        {isBrowser &&  <RecentProjects />}
+        {isBrowser &&  <Approach />}
+        {isBrowser &&  <Footer />}
         </div>
       </div>
     </main>
