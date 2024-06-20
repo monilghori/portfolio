@@ -60,18 +60,24 @@ export const FloatingNav = ({
           className
         )}
       >
-        {navItems.map((navItem: any, idx: number) => (
-          <Link
-            key={`link=${idx}`}
-            href={navItem.link}
-            className={cn(
-              "relative dark:text-neutral-50 items-center flex space-x-1 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500"
-            )}
-          >
-            <span className="block sm:hidden">{navItem.icon}</span>
-            <span className="hidden sm:block text-sm">{navItem.name}</span>
-          </Link>
-        ))}
+        {navItems.map((navItem: any, idx: number) => {
+  const isResume = navItem.name.toLowerCase() === 'resume';
+  return (
+    <Link
+      key={`link=${idx}`}
+      href={navItem.link}
+      target={isResume ? "_blank" : "_self"} // Open in new tab if it's a resume
+      rel={isResume ? "noopener noreferrer" : undefined} // Add security attributes if opening in new tab
+      className={cn(
+        "relative dark:text-neutral-50 items-center flex space-x-1 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500"
+      )}
+    >
+      <span className="block sm:hidden">{navItem.icon}</span>
+      <span className="hidden sm:block text-sm">{navItem.name}</span>
+    </Link>
+  );
+})}
+
       </motion.div>
     </AnimatePresence>
   );

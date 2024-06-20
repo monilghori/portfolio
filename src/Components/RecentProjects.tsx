@@ -1,3 +1,4 @@
+'use client'
 import React from "react";
 import { projects } from "../../Data";
 import { PinContainer } from "./ui/PinContainer";
