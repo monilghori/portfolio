@@ -3,10 +3,11 @@ import dynamic from 'next/dynamic';
 //import Grid from "@/Components/Grid";
 //import WelcomeTitle from "@/Components/WelcomeTitle";
 import { FloatingNav } from "@/Components/ui/Navbar";
-import { navItems } from "../../Data";
+import { navItems } from "../../Data";  
 //import RecentProjects from "@/Components/RecentProjects";
 //import Approach from "@/Components/Approach";
 //import Footer from "@/Components/Footer";
+import './globals.css'
 
 const Grid = dynamic(() => import('@/Components/Grid'), {
   ssr: false, // This disables SSR for this component
