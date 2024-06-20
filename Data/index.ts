@@ -2,6 +2,7 @@ export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
     { name: "Contact", link: "#contact" },
+    { name: "Resume", link: "https://drive.google.com/file/d/1qE7ByRr_X2AX6ZHyjRAMm91gGJlqCILc/view?usp=drive_link" }
   ];
 
   export const aboutItems = [
@@ -12,7 +13,7 @@ export const navItems = [
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:h-full",
       imgClassName: "w-full h-full",
       titleClassName: "justify-end",
-      img: "/b1.svg",
+      img: "/exp4.svg",
       spareImg: "",
     },
     {
@@ -195,14 +196,17 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      link: "https://github.com/monilghori",
     },
     {
       id: 2,
-      img: "/twit.svg",
+      img: "/link.svg",
+      link: "https://www.linkedin.com/in/monil-ghori-0bba3b248/",
     },
     {
       id: 3,
-      img: "/link.svg",
+      img: "/twit.svg",
+      link: "https://x.com/GhoriMonil",
     },
   ];
   export const leftList = [
