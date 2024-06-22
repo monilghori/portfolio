@@ -2,7 +2,7 @@ export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
     { name: "Contact", link: "#contact" },
-    { name: "Resume", link: "https://drive.google.com/file/d/1JsaTqL66mWk2Wt12EthEiu5n03KGAsVW/view?usp=drive_link" }
+    { name: "Resume", link: "https://drive.google.com/file/d/1OP3IAOxYieUATEM2fvwnbR8gQ2ZgUsGH/view?usp=drive_link" }
   ];
 
   export const aboutItems = [
@@ -92,6 +92,14 @@ export const navItems = [
       img: "/p3.png",
       iconLists: ["/re.svg", "/tail.svg", "/node.svg", "/mongodb.svg"],
       link: "",
+    },
+    {
+      id: 4,
+      title: "Fitness web-app",
+      des: "Designed and developed a comprehensive Fitness Management Application aimed at empowering users to monitor and improve their health and fitness levels effectively. The application features BMI calculation, personalized goal setting based on BMI, tailored diet plans, and progress tracking functionalities, enabling users to achieve their fitness objectives efficiently.",
+      img: "/fitness.png",
+      iconLists: ["/re.svg", "/css.svg", "/node.svg", "/mongodb.svg"],
+      link: "https://github.com/monilghori/Fitness-App",
     },
   ];
   
