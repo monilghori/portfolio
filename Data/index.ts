@@ -69,21 +69,21 @@ export const navItems = [
     },
   ];
   export const projects = [
-    {
+/*     {
       id: 1,
       title: "3D Solar System Planets to Explore",
       des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
       img: "/p1.svg",
       iconLists: ["/re.svg","/css.svg", "/node.svg", "/mongodb.svg"],
       link: "",
-    },
+    }, */
     {
       id: 2,
       title: "Home helper plus",
       des: "Home Helper Plus is a service platform designed to connect users with service providers for various home-related tasks. The platform facilitates easy access to trusted professionals for services such as cleaning, maintenance, and other household needs. Users can request services, view service provider profiles, and manage their requests seamlessly.",
       img: "/p2.png",
       iconLists: ["/re.svg","/css.svg","/spring.svg","/mysql.svg"],
-      link: "",
+      link: "https://github.com/monilghori/Home-service-webapp",
     },
     {
       id: 3,
