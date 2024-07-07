@@ -71,36 +71,36 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "Scholar Sphere",
-      des: "Student Counseling System designed to facilitate seamless communication between students and assigned faculty members for addressing academic, personal, or career-related queries.",
-      img: "/p1.jpg",
-      iconLists: ["/re.svg","/css.svg", "/node.svg", "/mongodb.svg"],
-      link: "https://github.com/monilghori/Student_Counselling_System",
-      },
-      {
-        id: 3,
-        title: "Glamour girl - Shop Inventory",
-        des: "Glamour Girl - Shop Inventory is a web-based application designed to manage and streamline the inventory processes of a retail fashion store",
+      title: "Glamour girl - Shop Inventory",
+      des: "Glamour Girl - Shop Inventory is a web-based application designed to manage and streamline the inventory processes of a retail fashion store",
         img: "/p3.png",
         iconLists: ["/re.svg", "/tail.svg", "/node.svg", "/mongodb.svg"],
         link: "https://github.com/monilghori/Shop-Inventory",
       },
-    {
-      id: 2,
-      title: "Home helper plus",
-      des: "Home Helper Plus is a service platform designed to connect users with service providers for various home-related tasks. The platform facilitates easy access to trusted professionals for services such as cleaning, maintenance, and other household needs. Users can request services, view service provider profiles, and manage their requests seamlessly.",
-      img: "/p2.png",
-      iconLists: ["/re.svg","/css.svg","/spring.svg","/mysql.svg"],
-      link: "https://github.com/monilghori/Home-service-webapp",
-    },
-    {
-      id: 4,
-      title: "Fitness web-app",
-      des: "Designed and developed a comprehensive Fitness Management Application aimed at empowering users to monitor and improve their health and fitness levels effectively. The application features BMI calculation, personalized goal setting based on BMI, tailored diet plans, and progress tracking functionalities, enabling users to achieve their fitness objectives efficiently.",
-      img: "/fitness.png",
-      iconLists: ["/re.svg", "/css.svg", "/node.svg", "/mongodb.svg"],
-      link: "https://github.com/monilghori/Fitness-App",
-    },
+      {
+        id: 2,
+        title: "Home helper plus",
+        des: "Home Helper Plus is a service platform designed to connect users with service providers for various home-related tasks. The platform facilitates easy access to trusted professionals for services such as cleaning, maintenance, and other household needs. Users can request services, view service provider profiles, and manage their requests seamlessly.",
+        img: "/p2.png",
+        iconLists: ["/re.svg","/css.svg","/spring.svg","/mysql.svg"],
+        link: "https://github.com/monilghori/Home-service-webapp",
+      },
+      {
+        id: 3,
+        title: "Fitness web-app",
+        des: "Designed and developed a comprehensive Fitness Management Application aimed at empowering users to monitor and improve their health and fitness levels effectively. The application features BMI calculation, personalized goal setting based on BMI, tailored diet plans, and progress tracking functionalities, enabling users to achieve their fitness objectives efficiently.",
+        img: "/fitness.png",
+        iconLists: ["/re.svg", "/css.svg", "/node.svg", "/mongodb.svg"],
+        link: "https://github.com/monilghori/Fitness-App",
+      },
+      {
+        id: 5,
+        title: "Scholar Sphere",
+        des: "Student Counseling System designed to facilitate seamless communication between students and assigned faculty members for addressing academic, personal, or career-related queries.",
+        img: "/p1.jpg",
+        iconLists: ["/re.svg","/css.svg", "/node.svg", "/mongodb.svg"],
+        link: "https://github.com/monilghori/Student_Counselling_System",
+        },
   ];
   
   export const testimonials = [
