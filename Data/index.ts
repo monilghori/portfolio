@@ -69,14 +69,22 @@ export const navItems = [
     },
   ];
   export const projects = [
-/*     {
+    {
       id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-      img: "/p1.svg",
+      title: "Scholar Sphere",
+      des: "Student Counseling System designed to facilitate seamless communication between students and assigned faculty members for addressing academic, personal, or career-related queries.",
+      img: "/p1.jpg",
       iconLists: ["/re.svg","/css.svg", "/node.svg", "/mongodb.svg"],
-      link: "",
-    }, */
+      link: "https://github.com/monilghori/Student_Counselling_System",
+      },
+      {
+        id: 3,
+        title: "Glamour girl - Shop Inventory",
+        des: "Glamour Girl - Shop Inventory is a web-based application designed to manage and streamline the inventory processes of a retail fashion store",
+        img: "/p3.png",
+        iconLists: ["/re.svg", "/tail.svg", "/node.svg", "/mongodb.svg"],
+        link: "https://github.com/monilghori/Shop-Inventory",
+      },
     {
       id: 2,
       title: "Home helper plus",
@@ -84,14 +92,6 @@ export const navItems = [
       img: "/p2.png",
       iconLists: ["/re.svg","/css.svg","/spring.svg","/mysql.svg"],
       link: "https://github.com/monilghori/Home-service-webapp",
-    },
-    {
-      id: 3,
-      title: "Glamour girl - Shop Inventory",
-      des: "Glamour Girl - Shop Inventory is a web-based application designed to manage and streamline the inventory processes of a retail fashion store",
-      img: "/p3.png",
-      iconLists: ["/re.svg", "/tail.svg", "/node.svg", "/mongodb.svg"],
-      link: "",
     },
     {
       id: 4,
