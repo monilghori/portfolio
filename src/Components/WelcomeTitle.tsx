@@ -34,7 +34,7 @@ const WelcomeTitle = () => {
             </h2>
             <TextGenerateEffect
               className="text-center text-[40px] md:text-5xl lg:text-6xl"
-              words="Hi, I&apos;m Monil Ghroi 👋"
+              words="Hi, I&apos;m Monil Ghori 👋"
             />
             <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-xl font-serif">Step into Monil&apos;s world, where technology and creativity intersect to ignite innovation. With a profound passion for building and an unquenchable thirst for knowledge, I&apos;m on an exhilarating journey to navigate the ever-evolving tech landscape 🚀.</p>
             <ButtonMagic
